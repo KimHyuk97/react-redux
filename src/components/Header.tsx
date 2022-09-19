@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { authActions, RootState } from "../store/store";
+import { authActions } from "../store/auth";
+import {  RootState } from "../store/store";
 
 const Header = () => {
 

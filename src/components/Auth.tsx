@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { authActions } from "../store/store";
+import { authActions } from "../store/auth";
+
 
 const Auth = () => {
 
